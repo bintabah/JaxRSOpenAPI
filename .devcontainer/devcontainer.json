@@ -1,0 +1,14 @@
+{
+  "name": "SIR API REST",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "workspace",
+  "workspaceFolder": "/workspace",
+  "extensions": [
+    "vscjava.vscode-java-pack",
+    "ms-azuretools.vscode-docker"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "mvn clean install"
+}

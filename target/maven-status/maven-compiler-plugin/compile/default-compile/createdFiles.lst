@@ -1,0 +1,12 @@
+fr/istic/taa/jaxrs/domain/Pet.class
+fr/istic/taa/jaxrs/dao/generic/PetDao.class
+fr/istic/taa/jaxrs/RestServer.class
+fr/istic/taa/jaxrs/rest/PetResource.class
+fr/istic/taa/jaxrs/dao/generic/IGenericDao.class
+fr/istic/taa/jaxrs/rest/SwaggerResource.class
+fr/istic/taa/jaxrs/dao/generic/TagDao.class
+fr/istic/taa/jaxrs/TestApplication.class
+fr/istic/taa/jaxrs/dao/generic/AbstractJpaDao.class
+fr/istic/taa/jaxrs/dao/generic/EntityManagerHelper.class
+fr/istic/taa/jaxrs/domain/Tag.class
+fr/istic/taa/jaxrs/ServiceWeb.class

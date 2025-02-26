@@ -1,0 +1,39 @@
+services:
+  workspace:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ..:/workspace:cached
+    command: sleep infinity
+    ports:
+      - "8081:8081"
+    networks:
+      - devnetwork
+
+  mysql:
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: mydb
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+    networks:
+      - devnetwork
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    restart: unless-stopped
+    environment:
+      PMA_HOST: mysql
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "8080:80"
+    networks:
+      - devnetwork
+
+networks:
+  devnetwork:

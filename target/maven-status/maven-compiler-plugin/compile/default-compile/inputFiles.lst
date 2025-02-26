@@ -1,0 +1,12 @@
+/workspace/src/main/java/fr/istic/taa/jaxrs/rest/SwaggerResource.java
+/workspace/src/main/java/fr/istic/taa/jaxrs/dao/generic/TagDao.java
+/workspace/src/main/java/fr/istic/taa/jaxrs/dao/generic/EntityManagerHelper.java
+/workspace/src/main/java/fr/istic/taa/jaxrs/TestApplication.java
+/workspace/src/main/java/fr/istic/taa/jaxrs/dao/generic/PetDao.java
+/workspace/src/main/java/fr/istic/taa/jaxrs/RestServer.java
+/workspace/src/main/java/fr/istic/taa/jaxrs/domain/Pet.java
+/workspace/src/main/java/fr/istic/taa/jaxrs/rest/PetResource.java
+/workspace/src/main/java/fr/istic/taa/jaxrs/domain/Tag.java
+/workspace/src/main/java/fr/istic/taa/jaxrs/ServiceWeb.java
+/workspace/src/main/java/fr/istic/taa/jaxrs/dao/generic/AbstractJpaDao.java
+/workspace/src/main/java/fr/istic/taa/jaxrs/dao/generic/IGenericDao.java
